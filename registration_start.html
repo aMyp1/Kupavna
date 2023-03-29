@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE/registration.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="JS/another.js"></script>
+    <title>Loading...</title>
+</head>
+<body>
+    
+    <div class="overlay">
+        <form>
+           <div class="con">
+           <header class="head-form">
+              <h2>Здравствуй</h2>
+              <p class="p1">Это особый закрытый сайт школы. <br>Введи пароль и логин, которые у тебя есть, <br> а если их нет тогда проваливай!  </p>
+           </header>
+           <br>
+           <div class="field-set">
+             
+              <!--   user name -->
+                 <span class="input-item">
+                   <i class="fa fa-user-circle"></i>
+                 </span>
+                <!--   user name Input-->
+                 <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required>
+             
+              <br>
+             
+                   <!--   Password -->
+             
+              <span class="input-item">
+                <i class="fa fa-key"></i>
+               </span>
+              <!--   Password Input-->
+              <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>         
+             
+              <br>
+
+              <button class="log-in"> Войти в системы </button>
+           </div>
+
+           <div class="log-in">
+              <button> забыл пароль </button>
+
+           </div>
+
+          </div>
+
+         </form>
+
+      </div>
+       <script>
+         setTimeout(function(){
+         document.title = 'ОПАСНОСТЬ'; 
+         document.title = 'Попытка взлома';
+         }, 700);
+      </script>
+</body>
+</html>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\ АРХИВ \\\\\\\\\\\\\\\\\\\\\\
+
+         Show/hide password
+         <span>
+            <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+         </span> 
+         
+         <script>
+         setTimeout(function(){
+         window.location.href = 'SCND_register.html';
+         }, 1000);
+      </script>
+         
+
+      setInterval(function_name, time);
+////////////////////////////////////////////////////////////-->
+
